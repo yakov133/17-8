@@ -110,9 +110,10 @@ function discount(arrOfObjects){
     for(let i = 0; i < arrOfObjects.length; i++){
         arrOfObjects[i].price *= 0.7;
     }
+    
 }
-
-// mostExpensive(arrOfObjects);
-// theCheapest(arrOfObjects);
-// discount(arrOfObjects   )
-
+console.log(arrOfObjects);
+mostExpensive(arrOfObjects);
+theCheapest(arrOfObjects);
+discount(arrOfObjects)
+console.log(arrOfObjects);
